@@ -4,7 +4,7 @@
 /**
  * print_to_98 - function to print natural numbers
  * @n: function parameter and  integer
- * 
+ *
  * Return: ends code
  */
 void print_to_98(int n)
