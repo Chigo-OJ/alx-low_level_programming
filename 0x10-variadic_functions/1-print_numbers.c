@@ -8,6 +8,7 @@
  * @...: extra parameters
  * Return: values of parameters
  */
+
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list nl;
@@ -19,7 +20,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		num = va_arg(nl, int);
 		printf("%d", num);
-		if (separator == NULL || x < n - 1)
+		if (separator != NULL || x < n - 1)
 			printf("%s", separator);
 	}
 	printf("\n");
